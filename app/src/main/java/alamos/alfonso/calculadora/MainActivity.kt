@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         var txt2: TextView = findViewById(R.id.txt2)
 
         txt2.text = txt2.text.toString() + "1"
+
+        // comentario
     }
 
     fun pressBtn2 (view: View) {
