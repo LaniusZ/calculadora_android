@@ -1,26 +1,4 @@
-package calcu2
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.view.View
-import android.widget.TextView
-
-class MainActivity : AppCompatActivity() {
-
-    var total : Int = 0
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
-
-    fun pressBtn1 (view: View) {
-        var txt2: TextView = findViewById(R.id.txt2)
-
-        txt2.text = txt2.text.toString() + "1"
-
-        // comentario
-    }
 
     fun pressBtn2 (view: View) {
         var txt2: TextView = findViewById(R.id.txt2)
